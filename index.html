@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Activation Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <form class="form" id="form">
+            <div class="main-container"> 
+                <div class="input">
+                    <ul style="list-style-type: none;">
+                        <div class="form-control" >
+                            <label for="" id="username" class="align">Your Name <span>*</span> </label>
+                            <input type="text" name="username" id="username" required>
+                        </div> 
+    
+                        <div class="form-control">
+                            <label for="" id="email" style class="align2" >Your Email <span>*</span> </label>
+                            <input type="email" name="email" id="email" required>
+                        </div> 
+    
+                        <div class="form-control">
+                            <label for="activation" id="activation" class="align">Activation Token <span>*</span> </label>
+                            <input type="text" name="activation-token" id="activation" required>
+                        </div>
+                    </ul>
+                </div>
+
+                <div id="privacy-policy">
+                    <label for="privacy policy">You agree to the <a href="privacy policy">privacy policy</a> <span>*</span> </label>
+                    <input type="checkbox" name="privacy policy" id="privacy policy" checked>
+                </div>
+
+                <div id="validation">
+                    <input onclick="validateName()"  type="text" name="validation-box" id="validation-box" disabled>
+                </div>
+                <div id="button">
+                    <button type="submit">Submit</button>
+                </div>
+                
+            </div>
+        </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>

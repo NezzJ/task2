@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:10px 300px 0 300px;
+    background: url(../images/img.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    color: whitesmoke;
+    margin: 0;
+    
+}
+.main-container{
+    background-color: #fa5959;
+    width: 650px;
+    height:350px;
+    padding: 25px;
+    border-radius: 30px; 
+    
+    
+}
+
+span{
+    color: red;
+}
+.form-control{
+    margin: 0px;
+    padding: 10px ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.input{
+    display: inline;
+}
+
+
+#username{
+    height: 25px;
+    width: 300px;
+   
+}
+
+#email{
+    height: 25px;
+    width: 300px;
+}
+
+#activation{
+
+    height: 25px;
+    width: 300px;   
+}
+
+#privacy-policy{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#validation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+#validation input{
+    width: 350px;
+
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #fa5959;
+    border-style: solid;
+    color:whitesmoke;
+    font: inherit;
+
+}
+
